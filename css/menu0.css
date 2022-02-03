@@ -1,0 +1,79 @@
+body {
+	background-image: url(../img/bg.jpg);
+	background-size: cover;
+}
+
+header {
+	margin-top: 30px;
+	position: absolute;
+	top: 0;
+	left: 103px;
+	width: 90%;
+	display: flex;
+	z-index: 1000;
+}
+
+header ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5px;
+}
+
+header ul li{
+	list-style: none;
+	margin-left: 15px;
+	
+}
+
+header ul li a {
+	position: relative;
+	float: right;
+	width: 70px;
+	height: 70px;
+}
+
+div {
+	background: white;
+	margin-right: 150px;
+	margin-left: 150px;
+	padding: 50px 50px;
+	border-radius: 35px;
+}
+
+.lg1 {
+	width: 50px;
+	height: 50px;
+	transition: 0.05s;
+}
+
+.lg2 {
+	width: 50px;
+	height: 50px;
+	transition: 0.05s;
+}
+
+.lg3 {
+	width: 50px;
+	height: 50px;
+	transition: 0.05s;
+}
+
+.lg1:hover {
+	width: 55px;
+	height: 55px;
+}
+
+.lg2:hover {
+	width: 55px;
+	height: 55px;
+}
+
+.lg3:hover {
+	width: 55px;
+	height: 55px;
+}
+
+.foto {
+	border-radius: 20px;
+}
